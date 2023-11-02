@@ -1,3 +1,7 @@
 export default function Page() {
-    return <p>Customer Page</p>;
+    return ( <>
+    <h1>My Header</h1>
+    <p>Customer Page</p>
+
+    </>);
 }
