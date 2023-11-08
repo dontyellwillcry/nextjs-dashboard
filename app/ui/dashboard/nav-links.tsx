@@ -32,7 +32,7 @@ export default function NavLinks() {
           // the 'Link' tag used to be an 'a' tag (common link tag in html/React).
           // Using the 'a' tag however would cause the whole dom to refresh and with Next.js
           // We can make is smoother since the layout of the pages is the same we only want
-          // to refresh to pages content not the whole page. So we can use Link tag.
+          // to refresh to pages content not the whole page. So we can use Link tag.  
           // Now when you click a link, only the content refreshes and not the whole page.
           <Link
             key={link.name}
